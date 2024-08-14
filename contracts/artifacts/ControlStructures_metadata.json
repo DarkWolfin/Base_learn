@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,26 +9,32 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
+						"name": "time",
 						"type": "uint256"
 					}
 				],
-				"name": "adder",
-				"outputs": [
+				"name": "AfterHours",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "AtLunch",
+				"type": "error"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "sum",
+						"name": "_time",
 						"type": "uint256"
-					},
+					}
+				],
+				"name": "doNotDisturb",
+				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "error",
-						"type": "bool"
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,26 +44,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "subtractor",
+				"name": "fizzBuzz",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "difference",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "error",
-						"type": "bool"
+						"internalType": "string",
+						"name": "response",
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -77,9 +73,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basic_math.sol": "BasicMath"
+			"contracts/Control_structures.sol": "ControlStructures"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -91,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basic_math.sol": {
-			"keccak256": "0xf0592bae1ba4dcd1c55bf9ff5f540bf1f5f97fc9e6b0078bb31e4ca6808361c8",
+		"contracts/Control_structures.sol": {
+			"keccak256": "0xd1efcaf8781e39f24d74c2d99090c68dc5732dc1cab985b7374d450ed2b92418",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0d87f4939fb0292e3fd417ce16a0ab00d362a0456a80bb6fb229656879d6645",
-				"dweb:/ipfs/QmaQMieYfKfgcRfaHZaet4HmEZ2kQ2DyPjCDceNfmWnkP1"
+				"bzz-raw://ba5775fece9edabf5b0af525be120936d3152e5c49a7ceb276928db82ba65cdd",
+				"dweb:/ipfs/QmahvL26HdsVmLBmL8VHpCkpjyaHypCbWhXEPjyHD6XXzU"
 			]
 		}
 	},
