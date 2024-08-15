@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "contract AddressBook",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OtherContracts.sol": "AddressBookFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/AddressBook.sol": {
+			"keccak256": "0x9d8ebf57c6793c20e9d46cfcccd61b0c1c23173e3a1decf3deee6770d593f748",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f0a59aaf0110afd7491583aa6302ec8902bbfa50bc73522d12fd1c336cf6d8a",
+				"dweb:/ipfs/QmXBe44gNwi5sckddGcy51zZuAqPUWFwBtzNbQPbRaKHVn"
+			]
+		},
+		"contracts/OtherContracts.sol": {
+			"keccak256": "0xba513defd7e3c42f4d09705b678ee8e2dbe6d0cb52156a735dd8be35ec7b2b0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2873c2d38019908690a0a908e6facf6bdbd87501c73813e77a807c932a53bf4",
+				"dweb:/ipfs/Qmd1BdDPuj33WwTa99GjzNnPBBRm56fdyGbHLHUP693wbq"
+			]
+		}
+	},
+	"version": 1
+}
